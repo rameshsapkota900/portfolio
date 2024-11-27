@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramesh Sapkota - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <svg width="50" height="50" viewBox="0 0 50 50">
+                    <circle cx="25" cy="25" r="20" fill="#60a5fa"/>
+                    <text x="25" y="25" text-anchor="middle" dy=".3em" fill="#111827" font-size="24" font-weight="bold">RS</text>
+                </svg>
+                <span class="logo-text">Ramesh Sapkota</span>
+            </div>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="animate-on-scroll">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <h1>Ramesh Sapkota</h1>
+                        <div class="type-wrap">
+                            <span id="typed-text"></span>
+                        </div>
+                        <p class="hero-description">Transforming ideas into innovative solutions</p>
+                        <div class="cta-buttons">
+                            <a href="#projects" class="btn btn-primary">View Projects</a>
+                            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-img-container">
+                            <img src="Images/selfi.png" alt="Ramesh Sapkota" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-left">
+                    <div class="about-image">
+                        <img src="Images/ramita.png" 
+                             srcset="Images/ramita.png 1x,
+                                     Images/ramita@2x.png 2x,
+                                     Images/ramita@4k.png 4x"
+                             sizes="(min-width: 3840px) 4x,
+                                    (min-width: 2560px) 2x,
+                                    1x"
+                             alt="Ramesh Sapkota">
+                        <div class="experience-badge">
+                            <span class="years">2+</span>
+                            <span class="text">Years<br>Experience</span>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#contact" class="btn primary-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Get In Touch
+                        </a>
+                        <a href="#" class="btn secondary-btn">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="about-header">
+                        <h3>A Passionate Full-Stack Developer & Student</h3>
+                        <p class="tagline">Transforming ideas into elegant digital solutions</p>
+                    </div>
+                    <div class="about-description">
+                        <p>Hello! I'm Ramesh Sapkota, a 21-year-old tech enthusiast and student at Itahari International College. With over 2 years of hands-on experience in web development and software engineering, I blend creativity with technical expertise to build innovative digital solutions.</p>
+                        <p>Currently pursuing my degree, I specialize in full-stack development with a particular focus on modern web technologies and blockchain solutions.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="highlight-content">
+                                <h4>Education</h4>
+                                <p>Computer Science Student at Itahari International College</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code-branch"></i>
+                            <div class="highlight-content">
+                                <h4>Expertise</h4>
+                                <p>Full-Stack Development, Blockchain Technology, Mobile Apps</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div class="highlight-content">
+                                <h4>Focus Areas</h4>
+                                <p>Web Development, Smart Contracts, UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Projects<br>Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Happy<br>Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Tech<br>Certifications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-category">
+                <h3 class="category-title"><i class="fas fa-code"></i> Programming Languages</h3>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-java"></i>
+                                <span class="skill-name">Java</span>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-microsoft"></i>
+                                <span class="skill-name">C#</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-windows"></i>
+                                <span class="skill-name">.NET</span>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fas fa-cog"></i>
+                                <span class="skill-name">Rust</span>
+                            </div>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-python"></i>
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title"><i class="fas fa-globe"></i> Web Development</h3>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-react"></i>
+                                <span class="skill-name">React</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-python"></i>
+                                <span class="skill-name">Django</span>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-html5"></i>
+                                <span class="skill-name">HTML</span>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-css3-alt"></i>
+                                <span class="skill-name">CSS</span>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title"><i class="fas fa-database"></i> Database & Mobile Development</h3>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fas fa-database"></i>
+                                <span class="skill-name">SQL</span>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fas fa-server"></i>
+                                <span class="skill-name">Oracle</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span class="skill-name">Flutter</span>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title"><i class="fas fa-paint-brush"></i> Design & Blockchain</h3>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-figma"></i>
+                                <span class="skill-name">Figma</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <i class="fab fa-ethereum"></i>
+                                <span class="skill-name">Smart Contracts</span>
+                            </div>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Coming Soon</h3>
+                        <p>Exciting projects under development</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Python</span>
+                            <span>Blockchain</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:rameshsapkota900@gmail.com" class="contact-link">rameshsapkota900@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <a href="tel: +9779824065478" class="contact-link">+977 9824065478</a>
+                            <a href="tel: +9779814346869" class="contact-link">+977 9814346869</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-share-alt"></i>
+                        <div>
+                            <h3>Social Media</h3>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/ramesh22sapkota" target="_blank" class="social-link facebook" title="Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="https://instagram.com/rameshsapkota900" target="_blank" class="social-link instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://wa.me/9779824065478" target="_blank" class="social-link whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                <a href="https://github.com/rameshsapkota900" target="_blank" class="social-link github" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/ramesh-sapkota-3aa24b329/" target="_blank" class="social-link linkedin" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg width="40" height="40" viewBox="0 0 50 50">
+                        <circle cx="25" cy="25" r="20" fill="#60a5fa"/>
+                        <text x="25" y="25" text-anchor="middle" dy=".3em" fill="#111827" font-size="20" font-weight="bold">RS</text>
+                    </svg>
+                </div>
+                <p>&copy; 2024 Ramesh Sapkota. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("WHv_Kfkiv_cvdbN5o"); // Replace with your EmailJS public key
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
