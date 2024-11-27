@@ -254,6 +254,7 @@ section {
     position: relative;
 }
 
+
 .section-title::after {
     content: '';
     position: absolute;
