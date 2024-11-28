@@ -1357,10 +1357,44 @@ footer {
         width: 100%;
     }
 
+    /* Mobile Responsiveness for About Section */
+@media screen and (max-width: 992px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
     .about-image {
-        max-width: 280px;
+        height: 500px;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-image {
+        height: 450px;
+        width: 100%;
+        max-width: 350px;
         margin: 0 auto;
     }
+    
+    .about-image img {
+        object-position: top center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-image {
+        height: 400px;
+        width: 90%;
+        max-width: none;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+}
 
     .about-stats {
         flex-wrap: wrap;
